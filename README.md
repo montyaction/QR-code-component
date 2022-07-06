@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/montyaction/single-price-grid-component)
-- Live Site URL: [Add live site URL here](https://animated-naiad-6c084a.netlify.app/)
+- Live Site URL: [Add live site URL here](https://musical-donut-12636d.netlify.app/)
 
 ## My process
 
