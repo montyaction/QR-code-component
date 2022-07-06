@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e2f0;
+  font-family: 'Outfit', sans-serif;
+  color: #7b879d;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+main {
+  max-width: 20rem;
+  margin: 10.25rem auto;
+}
+
+main .card {
+  background-color: white;
+  width: 320px;
+  padding: 1rem;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0.5rem 2rem rgba(123, 135, 157, 0.15);
+          box-shadow: 0 0.5rem 2rem rgba(123, 135, 157, 0.15);
+}
+
+main .card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+}
+
+main .card .txt-section {
+  padding: 1.5rem 1rem;
+}
+
+main .card .txt-section h1 {
+  color: #1f3251;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+main .card .txt-section p {
+  letter-spacing: 0.015em;
+}
+
+/* Footer Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/* Media Queries */
+@media screen and (max-width: 769px) {
+  .card {
+    margin: 5.5rem auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

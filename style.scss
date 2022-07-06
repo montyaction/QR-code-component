@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+
+// CSS Rest
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $light-gray;
+    font-family: 'Outfit', sans-serif;
+    color: $grayish-blue;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+main {
+    max-width: 20rem;
+    margin: 10.25rem auto;
+
+    .card {
+        background-color: $white;
+        width: 320px;
+        padding: 1rem;
+        border-radius: 20px;
+        box-shadow: 0 0.5rem 2rem hsla(220, 15%, 55%, 0.15);
+        
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        .txt-section {
+            padding: 1.5rem 1rem;
+            
+            h1 {
+                color: $dark-blue;
+                font-size: 1.4rem;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                letter-spacing: 0.015em;
+            }
+        }
+    }
+}
+
+/* Footer Section */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+/* Media Queries */
+@media screen and (max-width: 769px) {
+  .card {
+    margin: 5.5rem auto;
+  }
+}
